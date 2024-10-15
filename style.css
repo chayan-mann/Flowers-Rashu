@@ -9,7 +9,9 @@
 :root {
   --dark-color: #000000;
 }
-
+h1{
+  color:white;
+}
 body {
   display: flex;
   align-items: flex-end;
