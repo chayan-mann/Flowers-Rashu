@@ -14,6 +14,10 @@
   text-align: left;
 } */
 h1 {
+  position: absolute;
+  top: 50px; /* Adjust the top value as needed */
+  left: 50%; /* Center the text horizontally */
+  transform: translateX(-50%);
   font-family: 'Font Name', sans-serif; /* Replace 'Font Name' with your desired font */
   font-size: 36px; /* Adjust the font size as needed */
   color: #ffffff; /* Set the text color to white */
