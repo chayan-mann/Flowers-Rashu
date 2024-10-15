@@ -15,15 +15,27 @@
 } */
 h1 {
   position: absolute;
-  top: 50px; /* Adjust the top value as needed */
-  left: 50%; /* Center the text horizontally */
+  top: 50px;
+  left: 50%;
   transform: translateX(-50%);
-  font-family: 'Font Name', sans-serif; /* Replace 'Font Name' with your desired font */
-  font-size: 36px; /* Adjust the font size as needed */
-  color: #ffffff; /* Set the text color to white */
-  text-align: center; /* Center the text horizontally */
-  margin-bottom: 20px; /* Add a bottom margin for spacing */
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for depth */
+  font-family: 'Montserrat', sans-serif; /* A popular sans-serif font */
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 255, 1), 0 0 20px rgba(0, 0, 255, 0.5);
+  animation: text-glow 2s infinite;
+}
+
+@keyframes text-glow {
+  0% {
+    text-shadow: 0 0 10px rgba(0, 0, 255, 1), 0 0 20px rgba(0, 0, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(0, 0, 255, 1), 0 0 40px rgba(0, 0, 255, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(0, 0, 255, 1), 0 0 20px rgba(0, 0, 255, 0.5);
+  }
 }
 
 body {
